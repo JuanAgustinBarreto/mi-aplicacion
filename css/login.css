@@ -1,0 +1,73 @@
+/* Estilo para el contenedor del formulario de login */
+
+#login-page {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(37, 76, 78, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    /* Centra horizontalmente el contenedor */
+    position: absolute;
+    /* Posición absoluta para centrarlo verticalmente */
+    top: 50%;
+    /* Coloca el borde superior del contenedor en el 50% de la altura de la ventana */
+    left: 50%;
+    /* Coloca el borde izquierdo del contenedor en el 50% del ancho de la ventana */
+    transform: translate(-50%, -50%);
+    /* Centra vertical y horizontalmente el contenedor */
+}
+
+
+/* Estilos para el formulario */
+
+form {
+    display: flex;
+    /* Mostrar los elementos del formulario en línea */
+    flex-direction: column;
+    /* Alinear los elementos verticalmente */
+}
+
+
+/* Estilos para las etiquetas del formulario */
+
+label {
+    margin-top: 10px;
+    /* Agrega espacio superior a las etiquetas */
+}
+
+
+/* Estilos para los campos de entrada de texto */
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    /* Espaciado interno */
+    margin-top: 5px;
+    /* Agrega espacio superior a los campos de entrada */
+}
+
+
+/* Estilos para el botón de enviar */
+
+button {
+    padding: 10px;
+    /* Espaciado interno del botón */
+    margin-top: 15px;
+    /* Agrega espacio superior al botón */
+    background-color: #007BFF;
+    /* Color de fondo azul */
+    color: white;
+    /* Color de texto blanco */
+    border: none;
+    /* Sin borde */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima */
+}
+
+
+/* Estilos para cuando el cursor está sobre el botón */
+
+button:hover {
+    background-color: #0056b3;
+    /* Cambia el color de fondo cuando se pasa el cursor */
+}
